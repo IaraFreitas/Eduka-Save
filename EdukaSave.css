@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: #ff3d00;
+    padding: 4rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header ul{
+    display: flex;
+    justify-content: end;
+}
+
+header li{
+    margin-left: 40px;
+    color: white;
+}
+
+header a{
+    font-size: larger;
+    color: white;
+}
+
+header a:hover{
+    color: #3b1a01;
+}
+
+#projeto{
+   padding: 7em;
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,123,21,1) 100%); 
+}
+
+#projeto h1{
+    font-size: 35px;
+}
+
+#projeto p{ 
+   font-size: 25PX;
+   margin-top: 20px;    
+   margin-bottom: 30px;
+}
+
+#projeto a button{
+    font-size: 15px;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+#projeto a button:hover{
+    color: white;
+    background-color: #3b1a01;
+    transition: 0.8s;
+}
+
+#mentalidade{
+    padding: 7em;
+    background: rgb(59,26,1);
+    background: linear-gradient(0deg, rgba(59,26,1,1) 0%, rgba(245,73,20,0.9220063025210083) 71%), url(img/bolsoVazio.jpg); 
+}
+
+#mentalidade h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#mentalidade p{ 
+   font-size: 20PX;
+   margin-bottom: 10px;
+}
+
+#mentalidade a button{
+    font-size: 15px;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+#mentalidade a button:hover{
+    color: white;
+    background-color: #3b1a01;
+    transition: 0.8s;
+}
+
+#porOndeComecar{
+    padding: 7em;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,123,21,1) 100%); 
+ }
+ 
+ #porOndeComecar h1{
+     font-size: 35px;
+     margin-bottom: 20px;
+ }
+ 
+ #porOndeComecar p{ 
+    font-size: 25PX;
+    margin-top: 20px;    
+    margin-bottom: 30px;
+ }
+ 
+ #porOndeComecar a button{
+     font-size: 15px;
+     border-radius: 25px;
+     width: 200px;
+     height: 50px;
+ }
+ 
+ #porOndeComecar a button:hover{
+     color: white;
+     background-color: #3b1a01;
+     transition: 0.8s;
+ }
+ 
+ #taxas{
+    padding: 7em;
+    background: rgb(59,26,1);
+    background: linear-gradient(0deg, rgba(59,26,1,1) 0%, rgba(245,73,20,0.9220063025210083) 71%);
+ }
+ 
+ #taxas h1{
+     font-size: 35px;
+ }
+ 
+ #taxas p{ 
+    font-size: 25PX;
+    margin-top: 20px;    
+    margin-bottom: 30px;
+ }
+ 
+ #taxas a button{
+     font-size: 15px;
+     border-radius: 25px;
+     width: 200px;
+     height: 50px;
+ }
+ 
+ #taxas a button:hover{
+     color: white;
+     background-color: #3b1a01;
+     transition: 0.8s;
+ }
+ 
+ footer{
+    background-color: #ff3d00;
+    padding: 2rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: end;
+}
+
+footer li{
+    margin-left: 40px;
+    color: white;
+}
+
+footer a{
+    font-size: large;
+    color: white;
+}
+
+footer a:hover{
+    color: #3b1a01;
+}
