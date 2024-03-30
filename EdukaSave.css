@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #ff3d00;
+    background-color: #eb001b;
     padding: 4rem;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@ header ul{
 
 header li{
     margin-left: 40px;
-    color: white;
+    
 }
 
 header a{
@@ -34,9 +34,9 @@ header a:hover{
 }
 
 #projeto{
-   padding: 7em;
-   background: rgb(63,94,251);
-   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,123,21,1) 100%); 
+    padding: 10em;
+    background: rgb(235,0,27);
+    background: linear-gradient(0deg, rgba(235,0,27,1) 0%, rgba(247,158,27,0.8156512605042017) 78%);
 }
 
 #projeto h1{
@@ -63,9 +63,12 @@ header a:hover{
 }
 
 #mentalidade{
-    padding: 7em;
-    background: rgb(59,26,1);
-    background: linear-gradient(0deg, rgba(59,26,1,1) 0%, rgba(245,73,20,0.9220063025210083) 71%), url(img/bolsoVazio.jpg); 
+    background-image: url(img/poorMen.jpg);
+    background-position: unset;
+    justify-content: space-between;
+    padding: 10rem;
+    color: #470000;
+   
 }
 
 #mentalidade h1{
@@ -93,8 +96,8 @@ header a:hover{
 
 #porOndeComecar{
     padding: 7em;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,123,21,1) 100%); 
+    background: rgb(235,0,27);
+    background: linear-gradient(0deg, rgba(235,0,27,1) 0%, rgba(247,158,27,0.8156512605042017) 78%);
  }
  
  #porOndeComecar h1{
