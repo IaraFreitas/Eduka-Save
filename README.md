@@ -1,2 +1,2 @@
 # Eduka-Save
- Educação Financeira Salva
+ Sabedoria Financeira Salva
