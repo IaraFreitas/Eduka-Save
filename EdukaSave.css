@@ -20,8 +20,7 @@ header ul{
 }
 
 header li{
-    margin-left: 40px;
-    
+    margin-left: 40px;   
 }
 
 header a{
@@ -41,11 +40,11 @@ header a:hover{
 
 #projeto h1{
     font-size: 35px;
+    margin-bottom: 30px;
 }
 
 #projeto p{ 
    font-size: 25PX;
-   margin-top: 20px;    
    margin-bottom: 30px;
 }
 
@@ -63,22 +62,22 @@ header a:hover{
 }
 
 #mentalidade{
-    background-image: url(img/poorMen.jpg);
-    background-position: unset;
+    
     justify-content: space-between;
+    background-color: black;
     padding: 10rem;
-    color: #470000;
-   
+    color: white;
 }
 
 #mentalidade h1{
     font-size: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #mentalidade p{ 
-   font-size: 20PX;
-   margin-bottom: 10px;
+    font-size: 25PX;
+    margin-bottom: 10px;  
+    
 }
 
 #mentalidade a button{
@@ -95,20 +94,19 @@ header a:hover{
 }
 
 #porOndeComecar{
-    padding: 7em;
+    padding: 10em;
     background: rgb(235,0,27);
     background: linear-gradient(0deg, rgba(235,0,27,1) 0%, rgba(247,158,27,0.8156512605042017) 78%);
  }
  
  #porOndeComecar h1{
      font-size: 35px;
-     margin-bottom: 20px;
+     margin-bottom: 30px;
  }
  
  #porOndeComecar p{ 
     font-size: 25PX;
-    margin-top: 20px;    
-    margin-bottom: 30px;
+    margin-bottom: 10px;
  }
  
  #porOndeComecar a button{
@@ -116,6 +114,7 @@ header a:hover{
      border-radius: 25px;
      width: 200px;
      height: 50px;
+     margin-top: 20px;
  }
  
  #porOndeComecar a button:hover{
@@ -125,19 +124,23 @@ header a:hover{
  }
  
  #taxas{
-    padding: 7em;
-    background: rgb(59,26,1);
-    background: linear-gradient(0deg, rgba(59,26,1,1) 0%, rgba(245,73,20,0.9220063025210083) 71%);
+    padding: 10em;
+    background-image: url(img/yelowPig.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.925);
  }
  
  #taxas h1{
      font-size: 35px;
+     color: white;
+     margin-bottom: 30px;
  }
  
  #taxas p{ 
-    font-size: 25PX;
-    margin-top: 20px;    
-    margin-bottom: 30px;
+    font-size: 25PX;     
+    margin-bottom: 10px;
+    color: white;
  }
  
  #taxas a button{
@@ -145,6 +148,7 @@ header a:hover{
      border-radius: 25px;
      width: 200px;
      height: 50px;
+     margin-top: 30px;
  }
  
  #taxas a button:hover{
@@ -154,25 +158,41 @@ header a:hover{
  }
  
  footer{
-    background-color: #ff3d00;
+    background-color: #eb001b;
     padding: 2rem;
 }
 
-footer ul{
-    display: flex;
-    justify-content: end;
+footer a{
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
 }
 
-footer li{
-    margin-left: 40px;
+footer a:hover{
     color: white;
 }
 
-footer a{
+footer div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer hr{
+    margin-top: 40px;
+    width: 50vw;
+}
+
+footer div a{
     font-size: large;
     color: white;
 }
 
-footer a:hover{
+footer div a:hover{
     color: #3b1a01;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 10px;
 }
