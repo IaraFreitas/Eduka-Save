@@ -179,8 +179,8 @@ footer div{
 }
 
 footer hr{
-    margin-top: 40px;
     width: 50vw;
+    margin: 20px auto;
 }
 
 footer div a{
