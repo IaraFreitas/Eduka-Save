@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color: #eb001b;
+    background-color: #f34986;
     padding: 4rem;
     position: sticky;
     top: 0;
@@ -34,8 +34,8 @@ header a:hover{
 
 #projeto{
     padding: 10em;
-    background: rgb(235,0,27);
-    background: linear-gradient(0deg, rgba(235,0,27,1) 0%, rgba(247,158,27,0.8156512605042017) 78%);
+    background: rgb(243,73,134);
+    background: linear-gradient(0deg, rgba(243,73,134) 0%, rgba(242,240,247,0.8156512605042017) 78%);
 }
 
 #projeto h1{
@@ -64,9 +64,9 @@ header a:hover{
 #mentalidade{
     
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(243, 210, 228);
     padding: 10rem;
-    color: white;
+    color: #412608;
 }
 
 #mentalidade h1{
@@ -95,8 +95,8 @@ header a:hover{
 
 #porOndeComecar{
     padding: 10em;
-    background: rgb(235,0,27);
-    background: linear-gradient(0deg, rgba(235,0,27,1) 0%, rgba(247,158,27,0.8156512605042017) 78%);
+    background: rgb(253,156,191);
+    background: linear-gradient(0deg, rgba(253,156,191) 0%, rgba(242,240,247,0.8156512605042017) 78%);
  }
  
  #porOndeComecar h1{
@@ -158,7 +158,7 @@ header a:hover{
  }
  
  footer{
-    background-color: #eb001b;
+    background-color: #f34986;
     padding: 2rem;
 }
 
